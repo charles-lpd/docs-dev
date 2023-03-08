@@ -18,11 +18,11 @@ module.exports = {
   baseUrl: '/',
   trailingSlash,
 
+
   // 一般部署至托管商需要：结尾斜杠，不同的服务托管商需要
   // https://docusaurus.io/zh-CN/docs/deployment#trailing-slashes
   // https://docusaurus.io/zh-CN/docs/docusaurus.config.js#trailing-slash
   // trailingSlash
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
@@ -87,16 +87,16 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'guide/quick-start/overview',
+          docId: 'guide/getting-started/overview',
           position: 'left',
           label: '指南',
         },
-        {
-          type: 'doc',
-          docId: 'sdk/intro',
-          position: 'left',
-          label: 'SDK',
-        },
+        // {
+        //   type: 'doc',
+        //   docId: 'sdk/intro',
+        //   position: 'left',
+        //   label: 'SDK',
+        // },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -116,12 +116,12 @@ module.exports = {
           items: [
             {
               label: '指南',
-              to: '/docs/guide/quick-start/overview',
+              to: '/docs/guide/getting-started/overview',
             },
-            {
-              label: 'SDK',
-              to: '/docs/sdk/intro',
-            }
+            // {
+            //   label: 'SDK',
+            //   to: '/docs/sdk/intro',
+            // }
           ],
         },
         {
